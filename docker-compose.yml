@@ -135,5 +135,6 @@ services:
         protocol: tcp
 
 volumes:
-  db-data: {}
   dev-certs: {}
+  db-data:
+      driver: local
